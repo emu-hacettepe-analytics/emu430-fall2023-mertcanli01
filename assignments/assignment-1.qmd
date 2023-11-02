@@ -2,7 +2,11 @@
 title: "Assignment 1"
 
 ---
+# A
 
+
+Three project types are available with RStudio Cloud: Jupyter Projects, RStudio Projects, and projects from a Github repository. The ability to teach R and Python in the same cloud-based platform allows instructors to develop coding environments for students. The "new projects" button provides access to several project categories. Jupyter project support is in beta; community forums at community.rstudio.com/c/rstudio-cloud are a good place to share your thoughts.
+[video youtube link](<https://www.youtube.com/watch?v=UDuuE6eDNrA&list=PL9HYL-VRX0oTOK4cpbCbRk15K2roEgzVW&index=88>)
 
  
 # C

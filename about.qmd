@@ -4,27 +4,24 @@ sidebar: false
 ---
 
 # Education
+-   ABC College 2012-2015
+-   Zafer College High Schools 2015-2019
+-   B.S., Industrial Engineering, Hacettepe University, Turkey, 2019 - ongoing.
 
--   B.S., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
 
-# Work Experience
 
-## Employements
-
-1.  Firm xxx, position xx, year xxx
-
-2.  Firm yyy, position yyy, year yyy
 
 ## Internships
 
 1.  ANOVA Ar-Ge, Project Management Intern, year 2022
 
-2.  Firm bbb, position yyy, year yyy
+2.  Kalyon PV, Production Intern, year 2023
 
-# Projects
+
 
 # Competencies
 
-R, Quarto, Git, Python
+R, Quarto, Git, Python, Solidwork, Mathlab,
 
 # Hobbies
+Camping, Football, Cinema , Theather 

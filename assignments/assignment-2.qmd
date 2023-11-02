@@ -1,17 +1,6 @@
 ---
-title: "Assignment 1"
+title: "Assignment 2"
 ---
 
-# Assignment 1
+# Assignment 2
 
-```{r}
-install.packages("dslabs")
-library(dslabs)
-nadataset <- na_example
-summary(nadataset)
-nadataset[is.na(nadataset)] = 0
-nadataset <- as.data.frame(nadataset)
-print(nadataset)
-
-
-```

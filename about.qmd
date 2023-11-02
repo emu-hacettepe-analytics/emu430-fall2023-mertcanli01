@@ -25,3 +25,5 @@ R, Quarto, Git, Python, Solidwork, Mathlab,
 
 # Hobbies
 Camping, Football, Cinema , Theather 
+
+[CV](<file:///C:/Users/canli/Downloads/CV_Mert-CANLI-_1_-_1_-_2_.html>)

@@ -206,7 +206,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
    
   <ul>
   <li><a href="#a" id="toc-a" class="nav-link active" data-scroll-target="#a">A</a></li>
-  <li><a href="#c" id="toc-c" class="nav-link" data-scroll-target="#c">C</a></li>
+  <li><a href="#b" id="toc-b" class="nav-link" data-scroll-target="#b">B</a></li>
+  <li><a href="#c" id="toc-c" class="nav-link" data-scroll-target="#c">c</a></li>
   </ul>
 </nav>
 </nav>
@@ -236,23 +237,41 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="a" class="level1">
 <h1>A</h1>
-<p>Three project types are available with RStudio Cloud: Jupyter Projects, RStudio Projects, and projects from a Github repository. The ability to teach R and Python in the same cloud-based platform allows instructors to develop coding environments for students. The “new projects” button provides access to several project categories. Jupyter project support is in beta; community forums at community.rstudio.com/c/rstudio-cloud are a good place to share your thoughts. <a href="https://www.youtube.com/watch?v=UDuuE6eDNrA&amp;list=PL9HYL-VRX0oTOK4cpbCbRk15K2roEgzVW&amp;index=88">video youtube link</a></p>
+<p>Three project types are available with RStudio Cloud: Jupyter Projects, RStudio Projects, and projects from a Github repository. The ability to teach R and Python in the same cloud-based platform allows instructors to develop coding environments for students. The “new projects” button provides access to several project categories. Jupyter project support is in beta; community forums at community.rstudio.com/c/rstudio-cloud are a good place to share your thoughts.</p>
+<p><a href="https://www.youtube.com/watch?v=UDuuE6eDNrA&amp;list=PL9HYL-VRX0oTOK4cpbCbRk15K2roEgzVW&amp;index=88">video youtube link</a></p>
+</section>
+<section id="b" class="level1">
+<h1>B</h1>
+<p>1st difference is variable assignment</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="dv">10</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>my_name <span class="ot">&lt;-</span> <span class="st">"mert"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>in python</p>
+<p>x = 10 my_name = “mert”</p>
+<p>2nd difference is creating lists</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>vector <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>in python list = [1, 2, 3]</p>
+<p>3rd Function Definitions</p>
+<p>in R {} for defining the scope of functions, uses the if, else, and while keywords. in Python colons : and indentation for defining scope, uses if, elif, else, and while keywords.</p>
 </section>
 <section id="c" class="level1">
-<h1>C</h1>
+<h1>c</h1>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dslabs)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>nadataset <span class="ot">&lt;-</span> na_example</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(nadataset)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dslabs)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>nadataset <span class="ot">&lt;-</span> na_example</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(nadataset)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
   1.000   1.000   2.000   2.302   3.000   7.000     145 </code></pre>
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>nadataset[<span class="fu">is.na</span>(nadataset)] <span class="ot">=</span> <span class="dv">0</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>nadataset <span class="ot">&lt;-</span> <span class="fu">as.data.frame</span>(nadataset)</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(nadataset)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>nadataset[<span class="fu">is.na</span>(nadataset)] <span class="ot">=</span> <span class="dv">0</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>nadataset <span class="ot">&lt;-</span> <span class="fu">as.data.frame</span>(nadataset)</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(nadataset)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>     nadataset
 1            2

@@ -3,10 +3,15 @@ title: "Our Course Project"
 sidebar: false 
 ---
 
-I'm honored to be a member of the \[group name\] project team.
+I'm honored to be a member of the \[MAURO \\ ICARDI\] project team.
 
 Below, you'll find a brief summary of our project. To access a detailed project description, please go to [https://\[your-project-url\]](#0){.uri}.
 
+
+```{r}
+data <- read.csv("C:/Users/canli/OneDrive/Masaüstü/Data.csv")
+summary(data)
+```
 **Summary**
 
-\[provide a biref summary of your project\]
+\[Our \ dataset's\  name \ is "Top\ Football\ Leagues\ Scorers" taken from [Kaggle](<https://www.kaggle.com/datasets/mohamedhanyyy/top-football-leagues-scorers>) \]

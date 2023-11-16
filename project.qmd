@@ -4,11 +4,11 @@ sidebar: false
 ---
 
 I'm honored to be a member of the icaRdi project team.
-Group Members
-Mert Canlı
-Elif Ece Uygun
-Alperen Gürkan
-Bekir Gök
+Group Members:
+Mert Canlı,
+Elif Ece Uygun,
+Alperen Gürkan,
+Bekir Gök.
 
 Below, you'll find a brief summary of our project. To access a detailed project description, please go to [https://emu-hacettepe-analytics.github.io/emu430-fall2023-mertcanli01/project.html](#0){.uri}.
 

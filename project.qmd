@@ -1,17 +1,23 @@
 ---
-title: "Group Mauro Icardi Course Project"
+title: "Group icaRdi Course Project"
 sidebar: false 
 ---
 
-I'm honored to be a member of the MAURO ICARDI project team.
+I'm honored to be a member of the icaRdi project team.
+Group Members
+Mert Canlı
+Elif Ece Uygun
+Alperen Gürkan
+Bekir Gök
 
 Below, you'll find a brief summary of our project. To access a detailed project description, please go to [https://\[your-project-url\]](#0){.uri}.
 
 
 ```{r}
-data <- read.csv("C:/Users/canli/OneDrive/Masaüstü/Data.csv")
+data <- read.csv("C:/Users/canli/OneDrive/Masaüstü/Football teams.csv")
 summary(data)
 ```
 **Summary**
 
- Our  dataset's  name  is "Top Football Leagues Scorers" taken from [Kaggle](<https://www.kaggle.com/datasets/mohamedhanyyy/top-football-leagues-scorers>)  
+ Our  dataset's  name  is "Football teams | Rankings | Stats" taken from [Kaggle](<https://www.kaggle.com/datasets/varpit94/football-teams-rankings-stats/>) 
+ This dataset contains 10 columns and 98 observations. 2 of our variables are characteristic, 5 of them are continuous and the rest of the variables are discrete. The purpose of this project is to observe the relationship between variables and find the variables that have a big impact on the rating of the teams.
